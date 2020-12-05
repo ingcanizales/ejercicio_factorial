@@ -1,0 +1,123 @@
+body{
+    background-color: #d39624;
+}
+*{
+    margin: auto;
+    padding: 10px;
+
+ }
+
+ #header{
+   background-color: #F9F8FC;
+ }
+.container{
+    width: 996px;
+    margin: 0px auto;
+    font-size: 1em;
+}
+
+.activo{
+    background-color: #f39c55;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+nav{
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: left;
+}
+
+nav ul{
+    list-style-type: none;
+    float: left;
+    padding: 0px;
+    position: relative;
+    left: 30;
+    text-align: center;
+}
+
+nav ul li{
+    float: left;
+    padding: 10px;
+    margin: 2px;
+    background-color: #34e952;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li:hover{
+    background-color: #ffffff86;
+    text-align: center;
+}
+
+
+
+/*Para usar 980px o menos*/
+@media screen and (max-width: 980px){
+    .container{
+        width: 98%;
+    }
+    
+}
+
+/*Para usar 700px o menos*/
+@media screen and (max-width: 700px){
+    body{
+        background-color: #3624d3;
+    }
+   
+
+    nav{
+        font-size: 1.2em;
+    }
+
+    
+
+    nav ul{
+        float:none;
+        clear: both;
+        width: 70%;
+    }
+
+    
+
+}
+
+/*Para 501px o menos*/
+@media screen and (max-width: 510px){
+    body{
+        background-color: #1a440a;
+    }
+    
+    
+    nav{
+        font-size: 1.5em;   
+    }
+
+    
+
+    nav ul{
+        float: left;
+        clear: none;
+        width: 70%;
+    }
+
+    nav ul li{
+        float: none;
+    }
+
+    
+
+}
